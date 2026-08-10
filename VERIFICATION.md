@@ -20,8 +20,8 @@ It exists outside the essay by construction: a document cannot contain its own h
   from the funding at block 960849 through essay one (`ANCHOR-V1`, block 960856), the
   authorship commitment (`ANCHOR-ID1`, block 960869), and the dialogue manifest, to this
   essay — each anchor paid from the change of its predecessor.
-- OpenTimestamps proofs: `[.ots files, published alongside after stamping]`
-
+- OpenTimestamps proofs: `the-second-nature-v1.0.md.ots` and `The-Second-Nature-V1.0.pdf.ots` (in this repository); calendar attestations are upgraded to Bitcoin attestations as they confirm.
+  
 ## The first essay
 - *The Last Scarce Good* — canonical home and verification manifest:
   https://nullius2140.github.io/the-last-scarce-good/

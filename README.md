@@ -16,6 +16,8 @@ The essay engages the AI-safety field's current map (AI 2027) and its positive p
 - [`The-Second-Nature-V1.0.pdf`](The-Second-Nature-V1.0.pdf) — typeset reading rendition
 - [`VERIFICATION.md`](VERIFICATION.md) — verification manifest: hashes, transaction, block height
 
+**The third essay:** [The Third Estate](https://nullius2140.github.io/the-third-estate/) — to institutions.
+
 ## Verify before you trust
 
 1. Download the canonical file and compute its hash: `sha256sum the-second-nature-v1.0.md`

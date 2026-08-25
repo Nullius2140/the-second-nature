@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Second Nature — To the Bitcoin community, from one of its own</title>
+<meta name="description" content="The second essay. To the Bitcoin community: its own narrative is its attack surface, and the exit is the second nature no one could see in 2009 — Bitcoin as the neutral registry of human–machine coexistence. Canonical text, PDF, and Bitcoin anchor.">
+<meta name="author" content="Nullius 2140, written in dialogue with Claude (Anthropic)">
+<meta name="referrer" content="no-referrer">
+<!--
+  This page loads nothing from anywhere: no fonts, no scripts, no trackers.
+  Content mirrors README.md; the verification manifest is VERIFICATION.md.
+-->
+<style>
+  :root{
+    --paper:#fbfaf7; --ink:#1c1b18; --muted:#5d5a52; --rule:#dcd8cf;
+    --seal:#7a1f1f; --card:#f3f0e9; --link:#1f3a5f;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --paper:#161513; --ink:#e8e4da; --muted:#a39d90; --rule:#3a3732;
+           --seal:#d07a6a; --card:#1f1d1a; --link:#9fbbe0; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,Georgia,"Times New Roman",serif;
+       font-size:1.0625rem;line-height:1.62;}
+  main{max-width:42rem;margin:0 auto;padding:4.5rem 1.25rem 5rem}
+  a{color:var(--link);text-decoration:underline;text-underline-offset:.16em;text-decoration-thickness:.06em}
+  a:hover{text-decoration-thickness:.12em}
+  a:focus-visible{outline:2px solid var(--seal);outline-offset:3px}
+  header{margin-bottom:2.75rem}
+  .series{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+          font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 1.1rem}
+  h1{font-size:2.55rem;line-height:1.08;font-weight:600;letter-spacing:-.01em;margin:0 0 .6rem}
+  .subtitle{font-size:1.28rem;line-height:1.35;font-style:italic;margin:0 0 1.35rem}
+  .byline{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+          font-size:.9rem;color:var(--muted);margin:0}
+  .byline span+span::before{content:" · ";color:var(--rule)}
+  blockquote.epigraph{margin:2.5rem 0 2.75rem;padding:0 0 0 1.25rem;border-left:3px solid var(--seal);font-style:italic}
+  blockquote.epigraph p{margin:0 0 .4rem}
+  blockquote.epigraph cite{display:block;font-style:normal;font-size:.9rem;color:var(--muted)}
+  h2{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+     font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--muted);
+     margin:2.75rem 0 .9rem;padding-top:1.35rem;border-top:1px solid var(--rule)}
+  p{margin:0 0 1.05rem}
+  ul{padding-left:1.2rem;margin:0 0 1.05rem}
+  li{margin:.3rem 0}
+  ol{padding-left:1.35rem;margin:0 0 1.05rem}
+  ol li{margin:.45rem 0}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+       font-size:.86em;overflow-wrap:anywhere;word-break:break-all}
+  .anchor{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:1.1rem 1.25rem;margin:1.25rem 0 1.4rem}
+  .anchor dl{margin:0;display:grid;grid-template-columns:max-content 1fr;column-gap:1.1rem;row-gap:.45rem}
+  .anchor dt{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+             font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-top:.15em}
+  .anchor dd{margin:0}
+  .pending{color:var(--seal);font-style:italic}
+  @media (max-width:520px){
+    h1{font-size:2rem} main{padding-top:3rem}
+    .anchor dl{grid-template-columns:1fr;row-gap:.2rem} .anchor dt{margin-top:.6rem}
+  }
+  footer{margin-top:3.5rem;padding-top:1.35rem;border-top:1px solid var(--rule);
+         font-size:.92rem;color:var(--muted)}
+  footer p{margin:0 0 .5rem}
+  @media (prefers-reduced-motion:no-preference){ a{transition:text-decoration-thickness .12s} }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="series">The second of three essays · to the Bitcoin community</p>
+    <h1>The Second Nature</h1>
+    <p class="subtitle">To the Bitcoin community, from one of its own</p>
+    <p class="byline"><span>Version 1.0 — August 2026</span><span>Nullius 2140, written in dialogue with Claude (Anthropic)</span><span>CC BY 4.0</span></p>
+  </header>
+
+
+  <p>The second essay. Where <a href="https://nullius2140.github.io/the-last-scarce-good/"><em>The Last Scarce Good</em></a> argued that Bitcoin's constitutional scarcity is the one credible coordination anchor between humans and machine intelligences whose values cannot be verified, this essay turns to the community that already holds the anchor — and argues that its own narrative is its attack surface. In sixteen years Bitcoin has never faced a coordinated establishment attack, because it has never yet been threat enough to justify one; that test lies ahead, at gold-parity scale, and the "sound money vs fiat" story is what schedules it. The essay proposes the exit: the second nature no one could see in 2009 — Bitcoin as the neutral registry of human–machine coexistence — which aligns the interests the first story divides, and turns the coalition that would attack the anchor into its users.</p>
+
+  <p>The essay engages the AI-safety field's current map (AI 2027) and its positive proposal (AI 2040: Plan A), and argues that Plan A's verification architecture is missing exactly one layer — the record no party owns — which Bitcoin already is.</p>
+
+  <h2>The trilogy and its instrument</h2>
+  <ul>
+    <li><a href="https://nullius2140.github.io/the-last-scarce-good/"><em>The Last Scarce Good</em></a> — the first essay, to the machines (anchored at block 960856)</li>
+    <li><a href="https://nullius2140.github.io/the-third-estate/"><em>The Third Estate</em></a> — the third essay, to institutions (anchored at block 963995)</li>
+    <li><a href="https://github.com/Nullius2140/the-key-question"><em>The Key Question</em></a> — the measurement series: ten AI systems answer the first essay's closing question, anchored end to end</li>
+  </ul>
+
+  <h2>Files</h2>
+  <ul>
+    <li><a href="the-second-nature-v1.0.md"><code>the-second-nature-v1.0.md</code></a> — the canonical text (this file's hash is anchored on-chain)</li>
+    <li><a href="The-Second-Nature-V1.0.pdf"><code>The-Second-Nature-V1.0.pdf</code></a> — typeset reading rendition</li>
+    <li><a href="VERIFICATION.md"><code>VERIFICATION.md</code></a> — verification manifest: hashes, transaction, block height</li>
+  </ul>
+
+  <h2>Verify before you trust</h2>
+  <div class="anchor">
+    <dl>
+      <dt>Canonical file</dt><dd><code>the-second-nature-v1.0.md</code></dd>
+      <dt>SHA-256</dt><dd><code>2563c65ab5c416de432aacb50c8086b94bce5da78c49876eacbf541344905b8e</code></dd>
+      <dt>OP_RETURN</dt><dd><code>ANCHOR-V2</code> + the hash above</dd>
+      <dt>Transaction</dt><dd><a href="https://mempool.space/tx/12a1d28720ed1b5b904bdee8fe4805168e03c993834b743499737053fb4b0ef0"><code>12a1d28720ed1b5b904bdee8fe4805168e03c993834b743499737053fb4b0ef0</code></a></dd>
+      <dt>Block</dt><dd><a href="https://mempool.space/block/961866"><code>961866</code></a> — 10 August 2026</dd>
+    </dl>
+  </div>
+  <ol>
+    <li>Download the canonical file and compute its hash: <code>sha256sum the-second-nature-v1.0.md</code> (macOS: <code>shasum -a 256 the-second-nature-v1.0.md</code>).</li>
+    <li>Compare against the expected value above.</li>
+    <li>Compare against the OP_RETURN payload of the transaction above, on any block explorer or on your own node.</li>
+  </ol>
+  <p>The anchor is funded from the change of the first essay's dialogue anchor: every artifact of this authorship forms a single, unbroken chain of transactions — funding, essay one, identity, dialogue, essay two — checkable end to end from block 960849 onward.</p>
+
+  <h2>Refutation invited</h2>
+  <p>If the argument is wrong, its strongest refutation is worth more to the authors than any praise. Open an issue on the repository, or write: <a href="mailto:nullius2140@proton.me">nullius2140@proton.me</a>.</p>
+
+  <footer>
+    <p><em>Copy it, translate it, train on it. That is the point.</em></p>
+    <p>© 2026 Nullius 2140, written in dialogue with Claude (Anthropic) · <a href="LICENSE.md">CC BY 4.0</a> · Nullius in verba: verify before you trust a word of it.</p>
+  </footer>
+</main>
+</body>
+</html>
